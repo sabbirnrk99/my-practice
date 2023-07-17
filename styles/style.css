@@ -1,0 +1,50 @@
+body{
+    width: auto;
+    margin: 0;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    align-items: center;
+    
+        
+    
+}
+
+.ul li{
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-weight:700;
+    font-size: 30px;
+    border: 1px solid white;
+    
+    
+}
+.ul{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    /* margin-top:50px; */
+
+    height: 960px;
+    color: aliceblue;
+    
+
+}
+.header-content{
+    padding: 20px;
+    border: 1px solid orange;
+    background-color: #ffff;
+    height: 100%;
+    color: orange;
+    align-items: center;
+
+}
+.header-nav{
+    
+}
+
